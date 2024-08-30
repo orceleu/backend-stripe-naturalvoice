@@ -21,8 +21,7 @@ const corsOption = {
 app.use(cors(corsOption));
 
 // This is your Stripe CLI webhook secret for testing your endpoint locally.
-const endpointSecret =
-  "whsec_4776402dd66d977d463c3a5e20708000ee5bc49a7bb524d1d6765eeda1b7f520";
+const endpointSecret = "whsec_aScWlQZq4e7D4lgDt9yxPZxazduBod9C";
 
 app.post(
   "/webhook",
